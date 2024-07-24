@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
         setListeners()
     }
     private fun initUI() {
-        fragment1 = Fragment1()
-        fragment2 = Fragment2()
+        fragment1 = FirstFragment()
+        fragment2 = SecondFragment()
         fragmentManager = supportFragmentManager
         buttonShowFragment1 = findViewById(R.id.buttonShowFragment1)
         buttonShowFragment2 = findViewById(R.id.buttonShowFragment2)
